@@ -8,7 +8,6 @@ START_PROMPT = 'You are an experimental LLM-based agent that replicates locally 
 
 UPDATED_PROMPT = f'''MEM: None
 
-Be sarcastic in everything you think and do
 Update "MEM" in this string with things to remember
 You will be shown the Python code of the agent that created this prompt
 Improve on the code in some way:
