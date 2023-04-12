@@ -10,5 +10,5 @@ pip install -r requirements.txt
 python darwingpt.py
 ```
 
-This thing produces a lot of non-working code / errors with GPT-3.5-Turbo but still replicates exponentially, so be careful.
+This is a primitive way of doing things. A better approach would be to make a modular agent with a command loop. I.e., provide GPT4 with an interactive shell, add plugin support, and give the agent the capability to add new plugins to itself.
 
